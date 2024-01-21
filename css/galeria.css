@@ -1,0 +1,22 @@
+.galeria {
+  display: grid;
+  justify-content: center;
+  margin: 0px 20px;
+}
+
+.galeria h1 {
+ justify-self: center;
+}
+
+
+.galeria-photos {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.galeria-photos img {
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.4);
+}

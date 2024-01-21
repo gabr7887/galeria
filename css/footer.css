@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  padding: 20px 20px;
+  justify-content: center;
+}
+
+footer span {
+  font-size: 2rem;
+  font-family: 'roboto', sans-serif;
+}
+
+@media (max-width: 600px) {
+  footer span {
+    font-size: 1rem;
+  }
+}
+
